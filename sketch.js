@@ -357,6 +357,11 @@ function draw(){
 
           // Updating the engine
           Engine.update(engine);
+          
+          // Displaying a text
+          textSize(20);
+          textFont("Algerian");
+          text("You can also click on the particles on",100,100);
 
           // Displaying the paricles
           for(var j = 0; j < particles.length; j++) {
